@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevealFate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+<main class="content">
+    <img class="crystal-ball"src="./crystal-ball.png" alt="imagem de uma bola de cristal" />
+
+    <div class="written-content">
+        <h1 class="title">I will reveal your fate!</h1>
+    
+        <p class="subtitle">Click on 'Ask Question' for your fate to be revealed.</p>
+    </div>
+    
+    <div class="interaction">
+        <input id="inputQuestion"class="input-question"type="text" placeholder="Type your question"/>
+    
+        <button id="askButton" class="ask-button" onclick="revealFate()">Ask Question</button>
+    </div>
+
+
+    <h3 id="answer"></h3>
+    
+</main>
+
+
+</body>
+</html>
